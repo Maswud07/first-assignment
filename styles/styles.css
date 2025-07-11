@@ -335,3 +335,33 @@ body{
   font-weight: 600;
   
 }
+
+
+/*footer style*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+    background-color: #ffffff;
+  }
+  
+  .footer-logo {
+    font-size: 90px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  
+  .footer-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .footer-nav a {
+    font-size: 14px;
+    color: #666;
+    margin: 0 15px;
+    text-decoration: none;
+}
