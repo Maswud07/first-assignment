@@ -19,7 +19,7 @@ body{
 
 .inter-normal{
     font-family: "Inter", sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
     font-style: normal;
     color: #4E47FF;
@@ -55,7 +55,8 @@ body{
   }
 
   .hero-message{
-    font-size: 28px;
+    font-size: 40px;
+    color: #252432;
     margin-bottom: 15px;
     text-align: center;
     flex-direction: column;
@@ -90,9 +91,66 @@ body{
     margin-top: 50px;
   }
 
-  .Action{
-    font-size: 24px;
+  .action{
+    font-size: 50px;
     font-weight: bold;
     color: #252432;
 
+  }
+  .subtitle{
+    font-size: 24;
+    color: #2524325A
+    
+    ;
+  }
+
+  main{
+    padding: 100px 200px;
+  }
+
+  .section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+  }
+
+  .image-content img{
+    border-radius: 48px;
+  }
+
+  /* productive users style */
+
+  .productive-users{
+    padding: 30px 0;
+    background-color: #4E47FF1A;
+    margin-top: 100px;
+    border-radius: 24px;
+  }
+
+  .user-title{
+    text-align: center;
+    color: #252432;
+    font-size: 30px;
+    font-weight: bold;
+
+    
+  }
+
+  .user-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    
+  }
+
+  .user-box h1{
+    font-size: 80px;
+
+  }
+
+  .user-box p{
+    color: #2524325A;
+    text-align: center;
   }
