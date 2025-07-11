@@ -106,6 +106,7 @@ body{
 
   main{
     padding: 100px 200px;
+    background-color: #F3F2FFB3;
   }
 
   .section-container{
@@ -129,13 +130,12 @@ body{
     border-radius: 24px;
   }
 
-  .user-title{
-    text-align: center;
-    color: #252432;
-    font-size: 30px;
-    font-weight: bold;
 
-    
+  .user-title h2{
+    font-size: 40px;
+    color: #252432;
+    text-align: center;  
+
   }
 
   .user-container{
@@ -153,4 +153,185 @@ body{
   .user-box p{
     color: #2524325A;
     text-align: center;
+    
   }
+
+  .reviewer{
+    display: flexs;
+  }
+
+
+  /* user review styles */
+
+  .user-review h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    color: #252432;
+  }
+
+  .review-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+
+  }
+
+  .review-card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 80px 20px 20px;
+
+    
+
+  }
+
+  .review-card h3{
+    font-size: 25px;
+    margin-top: 20px;
+    color: #252432;
+  }
+
+  .review-card p{
+    margin-top: 10px;
+  }
+
+  .review-profile {
+    margin-top: 20px;
+    display: flex;
+    
+    
+  }
+
+  .reviewer-image img{
+    border-radius: 50px;
+   
+  }
+
+  .reviewer-name{
+    padding-left: 20px;
+    color: #2524325A
+    
+  }
+
+  .reviewer-name p{
+    margin: 0;
+    color: #2524325A
+    
+  }
+
+  /* focus styles */
+
+  .focus-better{
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 15px;
+    
+    
+  }
+  .focus h2{
+    text-align: center;
+    padding-top:  50px;
+    font-size: 50px;
+    color: ;
+
+  }
+  .focus p{
+    text-align: center;
+    padding: 20px;
+    font-size: 17px;
+    color: #00000080
+  }
+
+  .get-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+
+  .get-button button{
+    align-items: center;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+  }
+
+  .focus-banner{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .focus-banner img{
+    border-radius: 40px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+    
+  } 
+
+
+
+/* form styles */
+
+.contact {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 71px 0;
+    margin: 40px auto 0 auto;
+    
+  }
+  
+  .contact-text h2 {
+    font-size: 80px;
+    padding: 150px 80px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .contact-form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  
+}
